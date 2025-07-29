@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Othello</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="titleLabel">
+      <property name="text">
+       <string>Othello</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-size: 24px; font-weight: bold;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="newGameButton">
+      <property name="text">
+       <string>새 게임</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="continueButton">
+      <property name="text">
+       <string>이어하기</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="replayButton">
+      <property name="text">
+       <string>리플레이</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exitButton">
+      <property name="text">
+       <string>종료</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="infoLabel">
+      <property name="text">
+       <string>2023202059 김나희</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignBottom</set>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: gray; font-size: 12px;</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
